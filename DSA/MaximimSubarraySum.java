@@ -1,4 +1,5 @@
-class P1 {
+package DSA;
+class MaximimSubarraySum {
     int maxSubarraySum(int[] arr) {
         // Code here
         int n = arr.length ;
@@ -23,7 +24,7 @@ class P1 {
         return maxSum;
     }
     public static void main(String[] args) {
-        P1 p = new P1();
+        MaximimSubarraySum p = new MaximimSubarraySum();
         System.out.println(p.maxSubarraySum(new int[]{2, 3, -8, 7, -1, 2, 3}));
 
     }
